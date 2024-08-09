@@ -47,7 +47,7 @@ jobs:
       run: |
         npm start &
         sleep 10  # Wait for Electron to start
-        # Replace with a command to check Electron UI or logs, if available
+        # Example command to check if Electron is running, adjust as needed
         curl -I http://localhost:8080 | grep "200 OK" || true
       working-directory: .
 
